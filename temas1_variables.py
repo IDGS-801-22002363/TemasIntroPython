@@ -1,12 +1,6 @@
-# int float string
-
-num1="23"
-num2="10"
-print(num1+num2)
-num1='arath'
-
-print(num1)
-
-numero3="23"
-numero4="12"
-print(numero3+numero4)
+print("Dame dos números para sumarlos")
+print('')
+num1 = int(input('Ingresa el primer número:  '))
+num2 = int(input('Ingresa el segundo número:  '))
+suma = num1+num2
+print("La suma de {} mas {} es: {}".format(num1, num2, suma))

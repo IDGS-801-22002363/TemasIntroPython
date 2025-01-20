@@ -1,10 +1,14 @@
-# Pedir al usuario que ingrese un número
-numero = int(input("Introduce un número para ver su tabla de multiplicar: "))
+# Imprimir las tablas de multiplicar del 1 al 10
+for i in range(1, 11): 
+    print(f"Tabla del {i}:")
+    for j in range(0, 11):  
+        print(f"{i} x {j} = {i * j}")
+    print()  
 
-# Inicializar x
-x = 0
+range(20) 
 
-# Usar un bucle while para imprimir la tabla de multiplicar
-while x <= 10:
-    print(f"{numero} x {x} = {numero * x}")
-    x += 1  # Incrementar x en 1
+x=range(10,20)
+y=range(1,20,2)
+
+for i in range(20):
+    print(i)  

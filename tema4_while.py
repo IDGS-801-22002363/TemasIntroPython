@@ -1,7 +1,20 @@
+x=0
+while x<10:
+    print(x)
+    x=x+1
 
-# Imprimir las tablas de multiplicar del 1 al 10
-for i in range(1, 11):  # Para cada número del 1 al 10
-    print(f"Tabla del {i}:")
-    for j in range(0, 11):  # Multiplicamos por 0 hasta 10
-        print(f"{i} x {j} = {i * j}")
-    print()  # Línea en blanco para separar las tablas
+    '''operacion de multiplicacion de a x b utilizando sumas
+    a=3
+    b=4
+    salida: 3+3+3+3=12
+    '''
+a = int(input("Ingrese el primer número (a): "))
+b = int(input("Ingrese el segundo número (b): "))
+
+resultado = 0
+
+for _ in range(b):
+    resultado += a
+
+print(f"La multiplicación {a} x {b} ( {a} sumado {b} veces) es igual a: {resultado}")
+
